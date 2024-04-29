@@ -7,11 +7,14 @@ public class lab14 {
         int ab2 = sc.nextInt();
         System.out.println("enter num2");
         int ab1 = sc.nextInt();
-        System.out.println("enter operation, +,%,/,*");
+        System.out.println("enter operation, +,-,%,/,*");
         Character operator = sc.next().charAt(0);
         switch (operator){
             case '+':
                 System.out.println("result = "+ (ab2 + ab1));
+                break;
+            case '-':
+                System.out.println("result = "+ (ab2 - ab1));
                 break;
             case '%':
                 System.out.println("result = "+ (ab1 % ab2));
